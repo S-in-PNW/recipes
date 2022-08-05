@@ -1,12 +1,63 @@
-div {
-    color: white;
-    background-color: black;
+/*for the background*/
+html{
+    background:linear-gradient(to bottom, #ffc7a8, #EF5D60);
+    height:150%;
+    background-repeat: no-repeat;
 }
 
-p {
-    color: black;
+/*for the titles of each page*/
+.title {
+    font-size: 50px;
+    font-style: italic; 
+    color: #311847;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-    background:linear-gradient(to bottom, #E09F7D, #EF5D60);
+/*for the recipe list on the index pg*/
+.reclist {
+    color: #311847;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/*for the images on each page*/
+.img {
+    display: block;
+    width: auto;
+    margin: auto;
+    align-items: center;
+}
+
+/*for "ingredients" and "directions:"*/
+.section {
+    
+}
+/*for the ingredients list*/
+.ingr{
+    color: green;
+}
+
+/*for "step 1" etc*/
+.steps {
+
+}
+
+/*for the directions*/
+.directions {
+
+}
+
+/*for the "return home" button*/
+.rtrn {
+
+}
+
+.ingr,
+.steps,
+.directions,
+.section {
+    color: #311847;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
